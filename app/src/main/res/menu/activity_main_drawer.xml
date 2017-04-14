@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+        <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_subscription"
+            android:icon="@drawable/ic_subscription"
+            android:title="Subscription" />
+        <item
+            android:icon="@drawable/ic_bookmarks"
+            android:id="@+id/nav_saved_articles"
+            android:title="Saved Articles" />
+        <item
+            android:icon="@drawable/ic_offline"
+            android:id="@+id/nav_offline_read"
+            android:title="Offline Reading" />
+
+         </group>
+        <item
+            android:icon="@drawable/ic_night_mode"
+            android:id="@+id/nav_night_mode"
+            app:actionLayout="@layout/layout_switch"
+            android:title="Night Mode" />
+        <group android:checkableBehavior="single">
+        <item
+            android:icon="@drawable/ic_feedback"
+            android:id="@+id/nav_feedback"
+            android:title="Feedback" />
+        <item
+            android:icon="@drawable/ic_settings"
+            android:id="@+id/nav_settings"
+            android:title="Settings" />
+        <item
+            android:icon="@drawable/ic_about"
+            android:id="@+id/nav_about"
+            android:title="About"/>
+
+        </group>
+
+
+</menu>
